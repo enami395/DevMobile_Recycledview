@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu Principal"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/button_villes_maroc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Villes du Maroc (RecyclerView)"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/button_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CardView Example"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/button_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/button_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grid"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/button_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spinner" />
+
+</LinearLayout>
