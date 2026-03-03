@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App2Iagi">
         <activity
+            android:name=".About_us"
+            android:exported="false" />
+        <activity
+            android:name=".Contact"
+            android:exported="false" />
+        <activity
             android:name=".VillesMarocActivity"
             android:exported="false" />
         <activity
